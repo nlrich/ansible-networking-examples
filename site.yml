@@ -1,0 +1,7 @@
+---
+- name: install netbox on server
+  hosts: all
+  
+  roles:
+    - geerlingguy.postgresql
+    - lae.netbox
