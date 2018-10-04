@@ -23,5 +23,5 @@
       #MEDIA_ROOT: "{{ netbox_shared_path }}/media"
       REPORTS_ROOT: "{{ netbox_shared_path }}/reports"
     postgresql_users:
-      - name: "{{ netbox_database_user }}"
+      - name: "postgres"
         role_attr_flags: CREATEDB,NOSUPERUSER
