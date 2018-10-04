@@ -22,8 +22,6 @@
     postgresql_version: 9.6
     postgresql_service_enabled: true
     netbox_config:
-      ALLOWED_HOSTS:
-        - netbox.idolactiviti.es
       #MEDIA_ROOT: "{{ netbox_shared_path }}/media"
       REPORTS_ROOT: "{{ netbox_shared_path }}/reports"
     postgresql_users:
