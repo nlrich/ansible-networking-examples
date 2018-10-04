@@ -2,6 +2,10 @@
 - name: install netbox on server
   hosts: all
   
+  vars:
+    netbox_stable: true
+    netbox_git: false
+
   roles:
     - geerlingguy.postgresql
     - lae.netbox
