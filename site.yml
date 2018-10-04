@@ -12,7 +12,7 @@
     
   vars:
     #netbox_database: netbox
-    #netbox_database_user: netbox
+    netbox_database_user: postgres
     #netbox_database_password: changeme
     #netbox_database_host: localhost
     netbox_stable: true
