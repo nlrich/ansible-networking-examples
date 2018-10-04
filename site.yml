@@ -14,7 +14,7 @@
     netbox_config:
       ALLOWED_HOSTS:
         - netbox.idolactiviti.es
-      MEDIA_ROOT: "{{ netbox_shared_path }}/media"
+      #MEDIA_ROOT: "{{ netbox_shared_path }}/media"
       REPORTS_ROOT: "{{ netbox_shared_path }}/reports"
     postgresql_users:
       - name: "{{ netbox_database_user }}"
