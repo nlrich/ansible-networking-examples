@@ -1,13 +1,6 @@
 ---
 - name: install netbox on server
   hosts: all
-  
-  vars:
-    netbox_stable: true
-    netbox_git: false
-    netbox_superuser_username: admin
-    netbox_superuser_password: password
-    netbox_superuser_email: admin@localhost
 
   roles:
     - geerlingguy.postgresql
